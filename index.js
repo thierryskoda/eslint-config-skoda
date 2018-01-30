@@ -15,6 +15,7 @@ module.exports = {
     'no-restricted-syntax': [2, 'WithStatement'],
     'no-unused-vars': [2, { 'vars': 'all', 'args': 'none' }],
     'no-console': 0,
+    'radix': 0,
     'react/jsx-closing-bracket-location': 0,
     'react/jsx-curly-spacing': 0,
     'react/jsx-equals-spacing': 0,

@@ -17,6 +17,9 @@
     "url": "https://github.com/thierryskoda/eslint-config-skoda/issues"
   },
   "homepage": "https://github.com/thierryskoda/eslint-config-skoda#readme",
+  "scripts": {
+    "push": "git push && node scripts/publish && npm publish"
+  },
   "dependencies": {
     "eslint": "^4.14.0",
     "eslint-config-airbnb": "^16.1.0",
